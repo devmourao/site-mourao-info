@@ -1,0 +1,145 @@
+*{
+
+    color: #ffffff;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff0000, #0000ff); /* Default colors */
+    background-size: 400% 100%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.frame {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    max-width: 1400px;
+    width: 70%;
+    padding: 20px 10px;
+
+    border-radius: 10px;
+   
+}
+
+
+
+.profile{
+    
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 4px #fff;
+}
+
+.links {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 280px;
+
+
+}
+.link {
+    max-width: 35px;
+    margin: 3px;
+    padding: 10px  5px;
+ 
+}
+
+    
+
+
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+p   {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}  
+
+a {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 280px   ;
+    background: rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: #fff;
+    text-align: center;
+
+    margin-bottom: 10%;
+
+
+}
+
+.contact p {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.6rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+
+}
+
+footer p {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.8rem;
+    color: #ffffff94;
+    text-align: center;
+    width: 100%;
+}
