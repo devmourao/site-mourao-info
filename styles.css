@@ -18,16 +18,16 @@ body {
 }
 
 .frame {
-    margin: 20px auto;
+    margin: 15px auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2px;
     max-width: 1400px;
     width: 70%;
-    padding: 20px 10px;
+
+
 
     border-radius: 10px;
    
@@ -37,8 +37,8 @@ body {
 
 .profile{
     
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 4px #fff;
@@ -48,16 +48,16 @@ body {
     background: rgba(0, 0, 0, 0.1);
     width: 100%;
     border-radius: 10px;
-    padding: 5px;
+    padding: 1px;
     max-width: 280px;
-
+    display: flex;
 
 }
 .link {
     max-width: 35px;
-    margin: 3px;
-    padding: 10px  5px;
- 
+    margin: 5px;
+    padding: 1px  5px;
+    opacity: 0.6;
 }
 
     
@@ -66,14 +66,14 @@ body {
 
 h1 {
     font-family: 'Arial', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fff;
     text-align: center;
 }
 
 p   {
     font-family: 'Arial', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #fff;
     text-align: center;
     width: 100%;
@@ -81,7 +81,7 @@ p   {
 
 a {
     font-family: 'Arial', sans-serif;
-    font-size: 1rem;
+    font-size: 0.6rem;
     color: #fff;
     text-align: center;
     width: 100%;
@@ -98,7 +98,6 @@ hr {
     width: 100%;
     max-width: 280px   ;
     background: rgba(0, 0, 0, 0.1);
-
     text-align: center;
     border-radius: 10px;
     font-size: 0.6rem;
@@ -124,21 +123,19 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 10px;
+    background: rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: 'Arial', sans-serif;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color: #fff;
     text-align: center;
     width: 100%;
     padding: 10px;
-
 }
 
 footer p {
     font-family: 'Arial', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #ffffff94;
     text-align: center;
     width: 100%;
