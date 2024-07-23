@@ -11,7 +11,7 @@ A página é construída usando HTML, CSS e JavaScript, e inclui uma imagem de p
 
 ## Versão do projeto
 
-Esta é a versão 11. 
+Esta é a versão 1.1. 
 
 
 
