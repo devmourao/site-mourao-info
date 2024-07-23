@@ -1,9 +1,6 @@
-<div style="text-align: center;">
-<img src="https://raw.githubusercontent.com/mouraoinfo/site-mourao-info/main/assets/img/moraoinfo-rx.png" alt="Minha Logomarca" width="50" height="50">
-</div>
+
 
 # mourao.info
-
 
 Este projeto é uma página pessoal, (https://mourao.info) apresentando links para minhas redes sociais e detalhes de contato.
 
