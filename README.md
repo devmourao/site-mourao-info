@@ -1,6 +1,6 @@
 # mourao.info
 
-Este projeto é uma página pessoal, apresentando links para minhas redes sociais e detalhes de contato.
+Este projeto é uma página pessoal, (https://mourao.info) apresentando links para minhas redes sociais e detalhes de contato.
 
 ## Visão Geral
 
