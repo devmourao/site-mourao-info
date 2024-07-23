@@ -47,7 +47,7 @@ body {
 .links {
     width: 100%;
     border-radius: 10px;
-    padding: 1px;
+    display: flex;
     max-width: 280px;
     display: flex;
    
@@ -139,6 +139,16 @@ footer p {
 
     text-align: center;
     width: 100%;
+}
+
+.icones {
+    margin:5px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    vertical-align: middle;
+    opacity: 0.7;
+    filter: invert(100%);
 }
 
 .logoFooter {
