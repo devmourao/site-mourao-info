@@ -1,4 +1,5 @@
 
+<img src="https://raw.githubusercontent.com/mouraoinfo/site-mourao-info/main/assets/img/moraoinfo-rx.png" alt="Minha Logomarca" width="50" height="50">
 
 # mourao.info
 
