@@ -1,19 +1,8 @@
-t.com/mouraoinfo/site-mourao-info/main/assets/img/moraoinfo-rx.png" alt="Minha Logomarca" width="50" height="50">
+# mourao.info (redirect)
 
+Este repositório serve apenas para hospedar uma página estática no GitHub Pages que redireciona automaticamente para o subdomínio [dev.mourao.info](https://dev.mourao.info), onde o conteúdo principal está hospedado.
 
-# mourao.info
+## Como funciona
 
-
-Este projeto é uma página pessoal, (https://mourao.info) apresentando links para minhas redes sociais e detalhes de contato.
-
-## Visão Geral
-
-A página é construída usando HTML, CSS e JavaScript, e inclui uma imagem de perfil, uma breve biografia, e links para várias plataformas online.
-
-
-## Versão do projeto
-
-Esta é a versão 1.1. 
-
-
-
+- O `index.html` usa uma tag `<meta http-equiv="refresh">` para redirecionar imediatamente.
+- Deploy automático via GitHub Pages.
